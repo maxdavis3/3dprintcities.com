@@ -1,0 +1,197 @@
+baseURL = "https://3dprintcities.com/"
+languageCode = "en-us"
+title = "3D Print Cities"
+theme = "printwire"
+
+[params]
+tagline       = "Urban-scale additive manufacturing — from printed housing districts to smart city infrastructure and large-scale construction automation."
+description   = "3D Print Cities covers the future of urban construction — large-format concrete printing for housing, smart city infrastructure, and the automation of the built environment."
+keywords      = "3D print cities, urban construction printing, smart city AM, printed housing, large format concrete printing, construction automation"
+logoEmoji     = "🌆"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#e8724a"
+colorPrimaryDark  = "#c85e3a"
+colorPrimaryLight = "#f08a65"
+colorBgDark       = "#0d0c0b"
+colorBgSection    = "#111110"
+colorBgCard       = "#181614"
+colorBgCardHover  = "#201e1b"
+colorBorder       = "rgba(232,114,74,0.22)"
+colorBorderLight  = "rgba(232,114,74,0.10)"
+
+fontPrimary   = "Archivo+Black"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = [
+  "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80",
+  "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80",
+]
+
+heroEyebrow  = "Urban Construction AM"
+heroTitle    = "3D Print <em>Cities</em>"
+heroSubtitle = "Urban-scale additive manufacturing — from printed housing districts to smart city infrastructure and large-scale construction automation."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+
+overviewLabel   = "Urban Scale"
+overviewTitle   = "Printing the Built Environment"
+overviewText    = "From printed neighbourhoods in the Middle East to on-site robotic concrete extrusion — urban-scale additive manufacturing is reshaping how cities are built."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsLabel = "Applications"
+applicationsTitle = "Industries We Serve"
+servicesLabel    = "What We Do"
+servicesTitle    = "3D Print Cities Services"
+servicesSubtitle = "Urban-scale additive manufacturing — from printed housing districts to smart city infrastructure and large-scale construction automation."
+clusterLabel = "PrintWire Network"
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Urban-scale additive manufacturing — from printed housing districts to smart city infrastructure and large-scale construction automation."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 10
+suffix = "B+"
+label  = "Construction AM Market by 2030"
+
+[[params.stats]]
+count  = 70
+suffix = "%"
+label  = "Labour Cost Reduction"
+
+[[params.stats]]
+count  = 40
+suffix = "%"
+label  = "Material Waste Reduction"
+
+[[params.stats]]
+count  = 100
+suffix = "+"
+label  = "Printed Buildings Worldwide"
+
+
+[[params.applications]]
+title       = "Affordable Housing"
+description = "Rapid printed housing for urban density challenges — $4,000 homes printed in 24 hours in pilot projects."
+image       = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Smart Infrastructure"
+description = "Integrated sensor conduits, smart utility channels, and IoT-ready printed infrastructure."
+image       = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Mixed-Use Development"
+description = "Commercial and residential developments combining printed and conventional construction."
+image       = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+
+[[params.applications]]
+title       = "Urban Furniture & Public Space"
+description = "Custom printed benches, shelters, and public art integrated into smart city master plans."
+image       = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🌆"
+title       = "Urban Housing Projects"
+description = "Turnkey printed housing solutions — design, mix development, printing, and finishing for residential projects."
+
+[[params.servicesPreview]]
+icon        = "🏗️"
+title       = "Infrastructure Printing"
+description = "Bridges, retaining walls, sound barriers, and drainage systems printed on-site or in factory conditions."
+
+[[params.servicesPreview]]
+icon        = "📡"
+title       = "Smart City Integration"
+description = "Printed elements with embedded conduit systems for utilities, sensors, and communications infrastructure."
+
+[[params.servicesPreview]]
+icon        = "⬡"
+title       = "Master Plan Consulting"
+description = "Urban design consulting on integrating additive construction into city development plans."
+
+
+[[params.services]]
+name        = "Urban Housing Projects"
+description = "Turnkey printed housing solutions — design, mix development, printing, and finishing for residential projects."
+icon        = "🌆"
+image       = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+
+[[params.services]]
+name        = "Infrastructure Printing"
+description = "Bridges, retaining walls, sound barriers, and drainage systems printed on-site or in factory conditions."
+icon        = "🏗️"
+image       = "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+
+[[params.services]]
+name        = "Smart City Integration"
+description = "Printed elements with embedded conduit systems for utilities, sensors, and communications infrastructure."
+icon        = "📡"
+image       = "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+
+[[params.services]]
+name        = "Master Plan Consulting"
+description = "Urban design consulting on integrating additive construction into city development plans."
+icon        = "⬡"
+image       = "https://images.unsplash.com/photo-1582407947304-fd86f28320be?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintarchitecture.com"
+url         = "https://3dprintarchitecture.com"
+description = "Architecture AM flagship"
+
+[[params.clusterLinks]]
+name        = "3dprintconcrete.com"
+url         = "https://3dprintconcrete.com"
+description = "Concrete 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintcities.com"
+url         = "https://3dprintcities.com"
+description = "Urban construction AM"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[menu.main]]
+name   = "Home"
+url    = "/"
+weight = 1
+
+[[menu.main]]
+name   = "About"
+url    = "/about/"
+weight = 2
+
+[[menu.main]]
+name   = "Articles"
+url    = "/articles/"
+weight = 3
+
+[[menu.main]]
+name   = "Services"
+url    = "/services/"
+weight = 4
+
+[[menu.main]]
+name   = "Contact"
+url    = "/contact/"
+weight = 5
+
+[[menu.main]]
+name   = "Advertise"
+url    = "/advertise/"
+weight = 6
